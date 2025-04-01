@@ -1,0 +1,25 @@
+<%- include('layout'); -%>
+<title>Edit Note</title>
+<h1>Edit Note</h1>
+<form action="/notes/<%= note.id %>" method="POST">
+  <label for="title">Title:</label>
+  <input type="text" id="title" name="title" value="<%= note.title %>" required>
+
+  <label for="body">Body:</label>
+  <textarea id="body" name="body" required><%= note.body %></textarea>
+
+  <label for="color">Color:</label>
+  <select id="color" name="color">
+    <option value="white" <%= note.color === 'white' ? 'selected' : '' %>>White</option>
+    <option value="yellow" <%= note.color === 'yellow' ? 'selected' : '' %>>Yellow</option>
+    <option value="blue" <%= note.color === 'blue' ? 'selected' : '' %>>Blue</option>
+    <option value="green" <%= note.color === 'green' ? 'selected' : '' %>>Green</option>
+  </select>
+
+  <label>
+    <input type="checkbox" name="starred" <%= note.starred ? 'checked' : '' %>>
+    Mark as Important
+  </label>
+
+  <button type="submit">Update Note</button>
+</form>

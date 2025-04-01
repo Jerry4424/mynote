@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2",
+    "title": "Another Note",
+    "body": "This is another note. what",
+    "color": "blue",
+    "starred": true,
+    "createdAt": "2025-03-26 11:00:00",
+    "updatedAt": "3/31/2025, 10:20:31 PM"
+  },
+  {
+    "id": "4",
+    "title": "aerf",
+    "body": "dsf",
+    "color": "red",
+    "starred": false,
+    "createdAt": "3/27/2025, 12:14:33 AM",
+    "updatedAt": "3/27/2025, 12:14:33 AM"
+  },
+  {
+    "id": "5",
+    "title": "yyyy",
+    "body": "vvvvvvsdcsadc",
+    "color": "blue",
+    "starred": true,
+    "createdAt": "3/31/2025, 10:32:39 PM",
+    "updatedAt": "3/31/2025, 10:51:09 PM"
+  },
+  {
+    "id": "6",
+    "title": "jb",
+    "body": "hhh",
+    "color": "white",
+    "starred": false,
+    "createdAt": "3/31/2025, 10:55:03 PM",
+    "updatedAt": "3/31/2025, 10:55:03 PM"
+  }
+]
